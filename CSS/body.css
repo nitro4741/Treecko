@@ -1,0 +1,16 @@
+.body {
+    background-color: var(--color-fondo);
+    font-family: var(--font-family);
+    color: var(--text-color-2);
+    margin: 0;
+    
+}
+
+
+.hero {
+    display: flex;
+    background-image: url(/img/svg/EiDzB8WXYAIRINE.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
