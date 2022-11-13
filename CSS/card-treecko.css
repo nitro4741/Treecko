@@ -2,7 +2,7 @@
     background-color: var(--color-fondo);
     max-width: 320px;
     margin: auto;
-    border: 0.5rem solid  rgb(255, 255, 255);
+    border: 0.5rem solid  rgb(119, 231, 75);
     border-radius: 1rem;
     overflow: hidden;
     
@@ -10,6 +10,7 @@
 
 .card-treecko:hover {
     border-color: rgb(25, 117, 63);
+    transition: 0.5s;
 }
 
 .card-treecko__header {
@@ -36,6 +37,11 @@
 .card-treecko__title {
     margin: 0;
     font-size: 2rem;
+    text-align: center;
+}
+
+.card-treecko__tipo {
+    text-align: center;
 }
 
 .card-treecko__subtitle {
@@ -63,4 +69,8 @@
     margin: 0;
     padding: 0;
     gap: 1rem;
+}
+
+.menu-treecko__link {
+    text-decoration: none;
 }
