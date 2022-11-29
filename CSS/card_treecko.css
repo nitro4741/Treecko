@@ -5,12 +5,13 @@
     border: 0.5rem solid  rgb(119, 231, 75);
     border-radius: 1rem;
     overflow: hidden;
+    transition: 0.5s;
     
 }
 
 .card-treecko:hover {
     border-color: rgb(25, 117, 63);
-    transition: 0.5s;
+
 }
 
 .card-treecko__header {

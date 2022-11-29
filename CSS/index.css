@@ -1,5 +1,6 @@
-@import url(/CSS/variables.css);
-@import url(/CSS/body.css);
-@import url(/CSS/card_treecko.css);
-@import url(/CSS/card_torchic.css);
-@import url(/CSS/card_mudkip.css);
+
+@import './body.css';
+@import './card_mudkip.css';
+@import './card_torchic.css';
+@import './card_treecko.css';
+@import './variables.css';
